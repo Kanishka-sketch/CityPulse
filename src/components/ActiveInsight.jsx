@@ -1,0 +1,4 @@
+﻿function ActiveInsight() {
+ return <section className="panel insight-panel" aria-labelledby="insight-title"><div className="panel-heading"><div><span className="eyebrow">WHY ENGINE</span><h2 id="insight-title">What should you know?</h2></div><span className="status-pill neutral">Ready for updates</span></div><div className="empty-state"><span className="empty-mark" aria-hidden="true">◎</span><div><h3>We’re keeping an eye on Jaipur</h3><p>When something unusual appears, we’ll explain what changed, which signals may be related, and why it matters.</p></div></div><div className="contributing-preview"><span>Rainfall <b>↕</b></span><i>↔</i><span>Traffic <b>↕</b></span><i>↔</i><span>Complaints <b>↕</b></span></div><div className="honesty-note">Observed relationships are not confirmed causes.</div></section>;
+}
+export default ActiveInsight;
